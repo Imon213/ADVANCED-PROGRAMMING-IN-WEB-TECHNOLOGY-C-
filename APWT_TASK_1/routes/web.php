@@ -18,5 +18,5 @@ use App\Http\Controllers\ProductController;
 Route::get('/',[PagesController::class,'home'])->name('home');
 Route::get('/productList',[ProductController::class,'getProduct'])->name('product');
 Route::get('/teams',[PagesController::class,'teams'])->name('teams');
-Route::get('/contact.us',[PagesController::class,'contact'])->name('contact');
-Route::get('/about.us',[PagesController::class,'about'])->name('about');
+Route::get('/contact',[PagesController::class,'contact'])->name('contact');
+Route::get('/about',[PagesController::class,'about'])->name('about');
